@@ -24,7 +24,8 @@ left(90)
 
 #end of square
 
-#step 2: draw a door
+#step 2: draw a door                         
+                                                        
 
 
 
