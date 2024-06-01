@@ -6,3 +6,6 @@ fruit = ["aplle", "orange", "banana", "grape"]
 
 for i in fruit:
     print(i)
+
+
+
