@@ -1,0 +1,13 @@
+.content {
+    font-size: 15px;
+    background-color: lightblue;
+    width: 200px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+body {
+    background-color: blue;
+}

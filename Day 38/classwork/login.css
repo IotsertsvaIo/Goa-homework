@@ -1,0 +1,13 @@
+.title {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+.button {
+    border-radius: 8px;
+}
+
+body {
+    background-color: rgb(65, 112, 246);
+}
