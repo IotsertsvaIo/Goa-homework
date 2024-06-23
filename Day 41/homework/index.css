@@ -1,0 +1,111 @@
+main {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+/* tbilisi */
+.background-tbilisi {
+    width: 300px;
+    height: 230px;
+    margin-left: 55px;
+    margin-top: 100px;
+    background-image: url(./neil-sengupta-emWzYc5XC_A-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: -5px 5px 20px rgb(211, 131, 12);
+}
+
+.image-tbilisi {
+    text-align: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(211, 131, 12, 0.5);
+    color: white;
+    padding-top: 65px;
+}
+
+.image-tbilisi h1 {
+    font-size: 25px;
+}
+
+.image-tbilisi p {
+    font-size: 15px;
+}
+
+/* batumi */
+
+.background-batumi {
+    width: 300px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 100px;
+    background-image: url(./tarik-bozkurt-7r2K4wh1Ez4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: -5px 5px 20px rgb(76, 0, 255);
+}
+
+.image-batumi {
+    text-align: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(76, 0, 255, 0.548);
+    color: white;
+    padding-top: 65px;
+}
+
+.image-batumi h1 {
+    font-size: 25px;
+}
+
+.image-batumi p {
+    font-size: 15px;
+}
+
+
+
+/* kutaisi */
+
+.background-kutaisi {
+    width: 300px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 100px;
+    background-image: url(./n-cL_eSJ9uY6Q-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: -5px 5px 20px rgb(255, 166, 0);
+}
+
+.image-kutaisi {
+    text-align: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(255, 166, 0, 0.5);
+    color: white;
+    padding-top: 65px;
+}
+
+.image-kutaisi h1 {
+    font-size: 25px;
+}
+
+.image-kutaisi p {
+    font-size: 15px;
+}
+
+
+
