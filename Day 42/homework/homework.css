@@ -1,0 +1,58 @@
+.btn1 {
+    color: gray;
+    border-color: white;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 630px;
+}
+
+.btn2 {
+    color: gray;
+    border-color: white;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.btn3 {
+    color: gray;
+    border-color: white;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.btn4 {
+    color: gray;
+    border-color: white;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.btn5 {
+    color: white;
+    border-color: blue;
+    background-color: blue;
+    border-radius: 10px;
+    border-style: solid;
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.buttons {
+    display: inline;
+}
