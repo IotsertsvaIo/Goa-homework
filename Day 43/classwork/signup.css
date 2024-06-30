@@ -1,0 +1,71 @@
+body {
+    background-color: white;
+}
+
+
+main{
+    display: flex;
+}
+
+.border {
+    width: 1060px;
+    height: 450px;
+    border: 3px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.img {
+    background-image: url(./Screenshot\ 2024-06-27\ 213316.png);
+    background-position: center;
+    background-size: cover;
+    width: 530px;
+    height: 450px;
+    border-bottom-left-radius: 13px;
+    border-top-left-radius: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.signup {
+    margin-left: 710px;
+    margin-top: -420px;
+}
+
+.h1 {
+    color: gray;
+    margin-left: 40px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.labels {
+    color: gray;
+    font-size: medium;
+    font-family: cursive;
+    margin-left: -30px;
+}
+
+.btn {
+    background-color: blueviolet;
+    border-radius: 20px;
+    border-color: blueviolet;
+    width: 200px;
+    margin-left: -20px;
+    height: 30px;
+    color: white;
+}
+
+.inputs {
+    border-color: blueviolet;
+    color: blueviolet;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: larger;
+    margin-left: -40px;
+}

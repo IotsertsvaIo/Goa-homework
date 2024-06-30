@@ -1,0 +1,73 @@
+body {
+    background-color: beige;
+}
+
+
+.divs {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+/* heading */
+
+.btn1 {
+    color: gray;
+    background-color: beige;
+    border-style: solid;
+    border-color: gray;
+    margin-left: 50px;
+    margin-top: -20px;
+    font-size: large;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 3px;
+}
+
+.h1 {
+    color: gray;
+    font-size: xx-large;
+    font-family: fantasy;
+    margin-top: 15px;
+    margin-left: 390px;
+    margin-bottom: 50px;
+}
+
+.img-goa {
+    width: 300px;
+    height: 230px;
+    margin-left: 55px;
+    margin-top: -40px;
+    background-image: url(./th.jfif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: -5px 5px 20px rgb(30, 145, 7);
+}
+
+p {
+    font-family: cursive;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: x-large;
+}
+
+.last {
+    color: gray;
+    text-align: center;
+    font-size: large;
+    margin-top: 180px;
+    border-top: 2px;
+    border-top-color: gray;
+    border-top-style: solid;
+    border-right-color: beige;
+    border-right-style: solid;
+    border-left-color: beige;
+    border-left-style: solid;
+    border-bottom-color: beige;
+    border-bottom-style: solid;
+    padding-top: 20px;
+}

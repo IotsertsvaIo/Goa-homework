@@ -1,0 +1,405 @@
+body {
+    background-color: beige;
+}
+
+
+.divs {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+
+/* buttons */
+
+.btn1 {
+    background-color: beige;
+    color: gray;
+    border-color: beige;
+    border-style: solid;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: large;
+}
+
+.btn2 {
+    background-color: beige;
+    color: gray;
+    border-color: beige;
+    border-style: solid;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: large;
+}
+
+.btn3 {
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 680px;
+    padding: 5px;
+    font-size: large;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+
+/* for title */
+
+h1.title {
+    color: gray;
+    text-align: center;
+    margin-top: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* tbilisi */
+
+.img-tbilisi {
+    width: 300px;
+    height: 230px;
+    margin-left: 55px;
+    margin-top: 40px;
+    background-image: url(./neil-sengupta-emWzYc5XC_A-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: -5px 5px 20px rgb(211, 131, 12);
+}
+
+
+.tbilisi {
+    text-align: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(211, 131, 12, 0.5);
+    color: whitesmoke;
+    padding-top: 65px;
+}
+
+.image-tbilisi h1 {
+    font-size: 25px;
+    
+}
+
+.image-tbilisi p {
+    font-size: 15px;
+}
+
+
+/* dubai */
+
+.img-dubai {
+    width: 300px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 40px;
+    background-image: url(./zq-lee-VbDjv8-8ibc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: -5px 5px 20px rgb(117, 6, 245);
+}
+
+.dubai {
+    text-align: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(117, 6, 245, 0.34);
+    color: whitesmoke;
+    padding-top: 65px;
+}
+
+.image-dubai h1 {
+    font-size: 25px;
+    
+}
+
+.image-dubai p {
+    font-size: 15px;
+}
+
+
+/* paris */
+
+.img-paris {
+    width: 300px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 40px;
+    background-image: url(./earth-DXuxHw3S5ak-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: -5px 5px 20px rgb(219, 179, 103);
+}
+
+.paris {
+    text-align: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(219, 179, 103, 0.34);
+    color: whitesmoke;
+    padding-top: 65px;
+}
+
+.img-paris h1 {
+    font-size: 25px;
+    
+}
+
+.img-paris p {
+    font-size: 15px;
+}
+
+
+/* baku */
+
+.img-baku {
+    width: 300px;
+    height: 230px;
+    margin-left: 55px;
+    margin-top: 30px;
+    background-image: url(./iltun-huseynli-TQyah6wdlzg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: -5px 5px 20px rgb(45, 123, 197);
+}
+
+.baku {
+    text-align: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(45, 123, 197, 0.2);
+    color: whitesmoke;
+    padding-top: 65px;
+}
+
+.img-baku h1 {
+    font-size: 25px;
+    
+}
+
+.img-baku p {
+    font-size: 15px;
+}
+
+
+/* london */
+
+
+.img-london {
+    width: 300px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-image: url(./luke-stackpoole-mOEqOtmuPG8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: -5px 5px 20px rgb(0, 21, 136);
+}
+
+.london {
+    text-align: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(45, 123, 197, 0.34);
+    color: whitesmoke;
+    padding-top: 65px;
+}
+
+.img-london h1 {
+    font-size: 25px;
+    
+}
+
+.img-london p {
+    font-size: 15px;
+}
+
+
+/* tokyo */
+
+.img-tokyo {
+    width: 300px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-image: url(./derch-4CMq1GxDSPA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: -5px 5px 20px rgb(6, 133, 122);
+}
+
+.tokyo {
+    text-align: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(6, 133, 122, 0.34);
+    color: whitesmoke;
+    padding-top: 65px;
+}
+
+.img-tokyo h1 {
+    font-size: 25px;
+    
+}
+
+.img-tokyo p {
+    font-size: 15px;
+}
+
+
+/* rome */
+
+.img-rome {
+    width: 300px;
+    height: 230px;
+    margin-left: 55px;
+    margin-top: 30px;
+    background-image: url(./spencer-davis-ckotRXopwRM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: -5px 5px 20px rgb(212, 160, 62);
+}
+
+.rome {
+    text-align: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(212, 160, 62, 0.4);
+    color: whitesmoke;
+    padding-top: 65px;
+}
+
+.img-rome h1 {
+    font-size: 25px;
+    
+}
+
+.img-rome p {
+    font-size: 15px;
+}
+
+
+/* Madrid */
+
+.img-madrid {
+    width: 300px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-image: url(./igor-oliyarnik-ufm2_BJBRGc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: -5px 5px 20px rgb(212, 160, 62);
+}
+
+.madrid {
+    text-align: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(212, 160, 62, 0.3);
+    color: whitesmoke;
+    padding-top: 65px;
+}
+
+.img-madrid h1 {
+    font-size: 25px;
+    
+}
+
+.img-madrid p {
+    font-size: 15px;
+}
+
+
+/* berlin */
+
+.img-berlin {
+    width: 300px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-image: url(./florian-wehde-uFGi0_YciE0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: -5px 5px 20px rgba(250, 207, 14, 0.849);
+}
+
+.berlin {
+    text-align: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(250, 207, 14, 0.2);
+    color: whitesmoke;
+    padding-top: 65px;
+}
+
+.img-berlin h1 {
+    font-size: 25px;
+    
+}
+
+.img-berlin p {
+    font-size: 15px;
+}
+
+
+/* last */
+
+.last {
+    color: gray;
+    text-align: center;
+    font-size: large;
+    margin-top: 180px;
+    border-top: 2px;
+    border-top-color: gray;
+    border-top-style: solid;
+    border-right-color: beige;
+    border-right-style: solid;
+    border-left-color: beige;
+    border-left-style: solid;
+    border-bottom-color: beige;
+    border-bottom-style: solid;
+    padding-top: 20px;
+}

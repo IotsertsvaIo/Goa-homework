@@ -1,0 +1,43 @@
+main {
+    border: 3px;
+    border-color: chartreuse;
+    border-style: solid;
+    width: 600px;
+    height: 300px;
+    
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: stretch;
+    margin: 0px;
+    padding: 0px;
+}
+
+.child1 {
+    background-color: blue;
+}
+
+.child2 {
+    background-color: black;
+}
+
+.child3 {
+    background-color: blueviolet;
+}
+
+.child4 {
+    background-color: red;
+}
+
+.child5 {
+    background-color: aqua;
+}

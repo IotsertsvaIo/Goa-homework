@@ -1,0 +1,49 @@
+.parent {
+    width: 700px;
+    height: 300px;
+    border-color: black;
+    border: 3px;
+    background-color: red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.child1 {
+    border-color: green;
+    border: 4px;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    order: 2;
+}
+
+.child2 {
+    border-color: green;
+    border: 4px;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    order: 0;
+}
+
+
+.child3 {
+    border-color: green;
+    border: 4px;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    order: 1;
+}
+
+
