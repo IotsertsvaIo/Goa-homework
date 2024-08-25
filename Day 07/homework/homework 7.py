@@ -1,25 +1,26 @@
-for i in range(10):
-    print(i)
+for i in range(0, 11):
+    if i % 2 != 0:
+        print(i)
 
-num = 1
-while num <= 20:
-    print(num)
-    num += 1
+# num = 1
+# while num <= 20:
+#     print(num)
+#     num += 1
 
-x = 0
-summ = 0
+# x = 0
+# summ = 0
 
-while x <=5:
-    print(x)
-    summ = summ + x
-    x = x + 1
+# while x <=5:
+#     print(x)
+#     summ = summ + x
+#     x = x + 1
 
-print(summ)
+# print(summ)
 
 
-name = "Ioane"
-for i in name:
-    print(i)
+# name = "Ioane"
+# for i in name:
+#     print(i)
 
 
 

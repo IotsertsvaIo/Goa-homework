@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    
+    <!-- ფორმის შექმნა -->
+    <form id="registrationForm">
+        <!-- შესატანი ველი სრული სახელისთვის -->
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName"><br><br>
+        
+        <!-- შესატანი ველი იმეილისთვის -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <!-- შესატანი ველი პაროლისთვის -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        
+        <!-- Submit ღილაკი -->
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- შეტყობინების გამოტანის ადგილი -->
+    <p id="message"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
