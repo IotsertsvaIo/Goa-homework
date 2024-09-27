@@ -1,6 +1,8 @@
-let img1 = './car1.png';
-let img2 = './car2.png';
-let img3 = './car3.png';
+let img1 = './th (1).jfif';
+let img2 = './th (2).jfif';
+let img3 = './th (3).jfif';
+let img4 =  './th (4).jfif';
+let img5 =  './th.jfif';
 
 let i = 0;
 
@@ -15,6 +17,10 @@ function newImg() {
         document.getElementById('photo').src = img2;
     } else if (i === 2) {
         document.getElementById('photo').src = img3;
+    } else if (i === 3) {
+        document.getElementById('photo').src = img4;
+    } else if (i === 4) {
+        document.getElementById('photo').src = img5;
     }
 }
 
@@ -28,7 +34,7 @@ function prev() {
 }
 
 function next() {
-    if (i === 2) {
+    if (i === 4) {
         i = 0;
     } else {
         i++;
