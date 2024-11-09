@@ -1,0 +1,75 @@
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+    background-color: #eef6fb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+
+/* Header Styling */
+header {
+    background-color: #336699;
+    color: #fff;
+    padding: 40px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Content and Section Styling */
+.content {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+section {
+    margin: 30px 0;
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    color: #3385cc;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4da6ff;
+    padding-bottom: 5px;
+}
+
+/* Interests Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #005580;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #336699;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 0.9em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
