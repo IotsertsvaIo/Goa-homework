@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Data Entry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Person Data Entry</h1>
+        <form id="data-form">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" required>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" required>
+
+            <label for="id">ID:</label>
+            <input type="text" id="id" required>
+
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" required>
+
+            <label for="description">Description:</label>
+            <textarea id="description" required></textarea>
+
+            <button type="submit">Add Person</button>
+        </form>
+
+        <h2>People List</h2>
+        <div id="people-list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

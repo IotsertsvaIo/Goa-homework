@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ქაუნთერი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .counter {
+            text-align: center;
+        }
+        button {
+            font-size: 20px;
+            padding: 10px 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="counter">
+        <h1>ქაუნთერი: <span id="count">0</span></h1>
+        <button id="increment">დამატება</button>
+        <button id="reset">პირადი ქაუნთერის რეზეტირება</button>
+    </div>
+
+    <script>
+        let count = localStorage.getItem('counter') ? parseInt(localStorage.getItem('counter')) : 0;
+
+        document.getElementById('count').textContent = count;
+
+        document.getElementById('increment').addEventListener('click', function() {
+            count++;
+            localStorage.setItem('counter', count);
+            document.getElementById('count').textContent = count;
+        });
+
+        document.getElementById('reset').addEventListener('click', function() {
+            count = 0;
+            localStorage.setItem('counter', count);
+            document.getElementById('count').textContent = count;
+        });
+    </script>
+</body>
+</html>
