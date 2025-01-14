@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>თამაშის საიტი</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-screen" class="hidden">
+        <h1>შეიყვანეთ თქვენი სახელი</h1>
+        <input type="text" id="username" placeholder="სახელი">
+        <button id="start-game">დაწყება</button>
+    </div>
+    <div id="game-screen" class="hidden">
+        <header>
+            <h1 id="welcome-message"></h1>
+        </header>
+        <main>
+            <label>აირჩიეთ ფონი:</label>
+            <input type="color" id="background-picker">
+            <div>
+                <label>შეიტანეთ რიცხვი:</label>
+                <input type="number" id="number-input">
+                <button id="check-number">შეამოწმე</button>
+            </div>
+            <p>გამოსაცნობი დიაპაზონი: <span id="range"></span></p>
+            <p>ქულა: <span id="score">0</span></p>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
